@@ -19,8 +19,8 @@ To set up and run this project locally, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone [<repository-url>](https://github.com/Satyam9169/todo-app-with-redux-toolkit.git)
+   cd todo-app
    npm install
     npm start
    ```
