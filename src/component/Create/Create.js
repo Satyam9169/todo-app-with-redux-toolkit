@@ -72,8 +72,8 @@ const Create = () => {
                         required
                     >
                         <option value="">Select Status</option>
-                        <option value="active">Active</option>
-                        <option value="inactive">Inactive</option>
+                        <option value="active">Progress</option>
+                        <option value="inactive">Done</option>
                     </select>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
