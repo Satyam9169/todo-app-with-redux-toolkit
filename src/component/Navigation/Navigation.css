@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav.icons {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .navbar-nav.icons .nav-item {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link .fa-icon {
+    margin-left: 0.5rem;
+  }
+  
