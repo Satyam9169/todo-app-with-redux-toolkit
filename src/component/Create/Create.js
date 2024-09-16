@@ -35,7 +35,7 @@ const Create = () => {
 
     return (
         <div className="container mt-5  w-50">
-            <h2>Create POST</h2>
+            <h2>Create TODO</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label">Title</label>
@@ -72,8 +72,8 @@ const Create = () => {
                         required
                     >
                         <option value="">Select Status</option>
-                        <option value="active">Progress</option>
-                        <option value="inactive">Done</option>
+                        <option value="Progress">Progress</option>
+                        <option value="Done">Done</option>
                     </select>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>

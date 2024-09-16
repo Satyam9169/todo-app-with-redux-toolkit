@@ -13,8 +13,8 @@ const Read = () => {
 
     const [showPopup, setShowPopup] = useState(false);
 
-    const { users, loading } = useSelector((state) => state.userDetail); 
-                                                                                                
+    const { users, loading } = useSelector((state) => state.userDetail);
+
     useEffect(() => {
         dispatch(showUser());
     }, [dispatch]);
@@ -32,7 +32,7 @@ const Read = () => {
                     setShowPopup={setShowPopup}
                 />)
             }
-            <h2>User List</h2>
+            <h2>TODO List</h2>
             <table className="table">
                 <thead>
                     <tr>
@@ -57,13 +57,13 @@ const Read = () => {
                                     onClick={() => {
                                         setId(user.id);
                                         setShowPopup(true);
-                                         }
+                                    }
                                     }>
                                     View
                                 </button>
 
                                 <button className="btn btn-danger me-2"
-                                onClick={()=> dispatch(deleteUser(user.id))}
+                                    onClick={() => dispatch(deleteUser(user.id))}
                                 >
                                     Delete
                                 </button>

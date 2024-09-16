@@ -48,7 +48,7 @@ const Update = () => {
 
     return (
         <div className="container mt-4">
-            <h2>Update User</h2>
+            <h2>Update TODO</h2>
             {loading ? (
                 <p>Loading...</p>
             ) : error ? (
@@ -92,8 +92,8 @@ const Update = () => {
                             required
                         >
                             <option value="">Select Status</option>
-                            <option value="active">Active</option>
-                            <option value="inactive">Inactive</option>
+                            <option value="Progress">Progress</option>
+                            <option value="Done">Done</option>
                         </select>
                     </div>
                     <button type="submit" className="btn btn-primary">Update</button>
